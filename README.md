@@ -4,6 +4,7 @@ A Windows desktop utility with live per-app upload and download rates, shared PC
 
 <img width="2090" height="1316" alt="image" src="https://github.com/user-attachments/assets/cb16026b-1d84-4551-aa78-a877c2369b36" />
 
+Made this to stop GPT from eating my upload bandwidth.
 
 ## Setup
 
