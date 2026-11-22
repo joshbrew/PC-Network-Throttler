@@ -2,6 +2,9 @@
 
 A Windows desktop utility with live per-app upload and download rates, shared PC limits, and rules for individual apps. Setup enables a **20 Mbps upload cap** by default. Download and per-app limits start off.
 
+<img width="2090" height="1316" alt="image" src="https://github.com/user-attachments/assets/cb16026b-1d84-4551-aa78-a877c2369b36" />
+
+
 ## Setup
 
 Extract the Windows install ZIP or clone the repository on Windows 10 or 11. Open **Run.cmd** to start setup on a fresh PC. Open **Install.cmd** whenever you want the setup menu.
