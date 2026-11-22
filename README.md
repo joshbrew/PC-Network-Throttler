@@ -1,6 +1,6 @@
-# Network Throttler 1.0
+# Network Throttler
 
-A Windows desktop utility with live per-app upload and download rates, shared PC limits, and rules for individual apps. Setup enables a **20 Mbps upload cap** by default. Download and per-app limits start off.
+A Windows desktop utility with live per-app upload and download rates, shared PC limits, and rules for individual apps.
 
 <img width="2090" height="1316" alt="image" src="https://github.com/user-attachments/assets/cb16026b-1d84-4551-aa78-a877c2369b36" />
 
@@ -8,9 +8,21 @@ Made this to stop GPT from eating my upload bandwidth.
 
 ## Setup
 
-Extract the Windows install ZIP or clone the repository on Windows 10 or 11. Open **Run.cmd** to start setup on a fresh PC. Open **Install.cmd** whenever you want the setup menu.
+Extract the Windows install ZIP or clone the repository on Windows 10 or 11. 
 
-Setup offers **1. Install or update**, **2. Clean reinstall**, and **3. Uninstall** when the app is already installed. Updating keeps your saved limits. Clean reinstall removes the app and its saved rules, then installs it with the default settings. Setup asks you to confirm clean reinstall or uninstall.
+- Open **Run.cmd** to start setup on a fresh PC. 
+
+- Open **Install.cmd** whenever you want the setup menu.
+
+Setup offers 
+
+**1. Install or update**<br/>
+**2. Clean reinstall**<br/>
+and **3. Uninstall** 
+
+When the app is already installed. 
+
+Updating keeps your saved limits. Clean reinstall removes the app and its saved rules, then installs it with the default settings. Setup asks you to confirm clean reinstall or uninstall.
 
 When installing or updating, choose whether to create or keep a desktop shortcut, then approve the Windows administrator prompt. On x64 Windows, setup can also add PC-wide download and per-app limits if packet support is needed. Setup offers to open the app once it finishes. To choose a different initial upload speed, run `Install.cmd -UploadMbps 15` from a terminal.
 
